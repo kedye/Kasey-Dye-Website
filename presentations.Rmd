@@ -1,0 +1,27 @@
+---
+title: "Conference Presentations"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+-   Spence, C. M., Brock, J.R., & **Dye, K.** (2022, March 22). *Infant mental health endorsement in Virginia*. Presented at the Center of Excellence for IECMHC Conference, Virtual.
+
+-   **Dye, K.** (2022, March 11). *First step to success intervention*. Presented at the Virginia Council for Exceptional Children Conference.
+
+-   **Dye, K.**, & Walker Bowman, R. (2022, March 11). *Elementary self-contained autism special educators' perceptions of administrator support*. Presented at the Virginia Council for Exceptional Children Conference.
+
+-   Spence, C. M., Acar, S., Blasco, P., Rooks-Ellis, D., Brown, K., Childress, D., Floyd, K., Scholtes, R., **Dye, K.**, Griffin, R., & Yel, N. (2022, February 12). *Substance-exposed infants and their families: Early interventionists' knowledge and practices*. Presented at the Conference on Research Innovations in Early Intervention (non-attending author). 
+
+-   **Dye, K.**, & Hicks, M. (2022, February 1). *Disproportionality between male and female students with a disability in advanced math classes*. Presented at the CEC Conference, Virtual.
+
+-   Wallace, M. K., **Dye, K.**, Dawes, S., & Thompkins, K. (2021, October 22). *Picture of practice revealed: Unpacking a researcher-practitioner partnership*. Presented at the MERC Conference, Virtual.
+
+-   Senechal, J., **Dye, K.**, Robnolt, V., Edmondson, E., Ross, E., Hoffman, A., & Becker, J. (2021, October 22). *Will they stay or will they go? Lessons learned from the MERC teacher retention study*. Presented at the MERC Conference, Virtual.
+
+-   Robnolt, V., Edmondson, E., Becker, J., Castro, A., Senechal, J., Ross, E., & **Dye, K.** (2020, October). *Teacher workforce experiences in 2020: Key takeaways from the MERC teacher retention team*. Presented at the MERC Conference, Virtual.
+
+    \
+
+    \

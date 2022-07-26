@@ -5,7 +5,7 @@ title: "About Me"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-![](img/kasey.jpg){width=25%} 
+![](img/kasey2.jpg){width=25%} 
 
 I am currently a third year doctoral student in the Special Education and Disability Policy program at Virginia Commonwealth University. For my dissertation, I am interested in investigating barriers and supports to healthcare access for children with disabilities. 
 

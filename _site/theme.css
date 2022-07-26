@@ -31,7 +31,7 @@ html {
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
   --heading-font:    'Montserrat', sans-serif;
-  --mono-font:       'Lato', monospace
+  --mono-font:       'Lato', sans-serif
   --body-font:       'Lato', sans-serif;
   --navbar-font:     'Montserrat', sans-serif;  /* websites + blogs only */
 }

@@ -13,14 +13,14 @@ navbar:
       href: about.html
     - text: "CV"
       href: cv.pdf
-    - text: "Publications"
-      href: pubs.html
-    - text: "Projects"
+    - text: "Work"
       menu:
         - text: "Publications"
           href: pubs.html
-        - text: "Project 2"
-          href: project2.html
+        - text: "Program Evaluations"
+          href: programevaluations.html
+        - text: "Presentations"
+          href: presentations.html
     - icon: fa fa-github
       href: https://github.com/kedye
     - icon: fa fa-twitter

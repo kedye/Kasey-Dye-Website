@@ -4,12 +4,14 @@ title: "Publications"
 
 # Peer-Reviewed
 
+-   **Dye, K.**, Wallace, M., Thompkins, K., Dawes, S. (2022, June 6). An urban partnership: Embracing collaboration and feedback. *Journal of Community Engagement and Scholarship*, 14(2).
+
 # Accepted for Publication
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+-   **Dye, K.**, & Walker Bowman, R.W. (in press- will publish in Fall 2023). Leadership matters: Self-contained special educators' perceptions of administrator support. *Journal of the American Academy of Special Education Professionals*.
 
-Distill is a publication format for scientific and technical writing, native to the web.
+-   **Dye, K.** (in press- will publish in Spring 2023). Relationships impacting special education teacher burnout. *Kappa Delta Pi Record*.
 
-Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
+# Other Publications
+
+-   Becker, J., Robnolt, V., **Dye, K.**, & Ross, E. (2021). *Will they stay or will they go? Analysis of the VDOE working conditions survey*. Richmond, VA: Metropolitan Educational Research Consortium. [ https://merc.soe.vcu.edu/reports/published-reports/will-they-stay/](https://merc.soe.vcu.edu/reports/published-reports/will-they-stay/)
