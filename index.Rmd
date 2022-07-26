@@ -13,4 +13,4 @@ output:
   postcards::jolla
 ---
  
-Hello, I am a third year doctoral student at Virginia Commonwealth University. My current research study is investigating supports and barriers to accessing healthcare for children with disabilities. 
+Hello, I am a third year doctoral student at Virginia Commonwealth University. I plan to complete my PhD in the Spring/Summer of 2023 and begin my career as a data analyst. 

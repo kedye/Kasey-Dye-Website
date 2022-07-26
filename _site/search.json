@@ -4,29 +4,29 @@
       "path": "about.html",
       "title": "About Me",
       "author": [],
-      "contents": "\nHeader 1\nsome text\nHeader 2\nsome more text\nSubheading 1\n\n\n\n\n",
-      "last_modified": "2022-07-26T12:15:38-04:00"
+      "contents": "\nHeader 1\nsome text\nHeader 2\nsome more text\nSubheading 1\n\n\n\n",
+      "last_modified": "2022-07-26T13:01:22-04:00"
     },
     {
       "path": "index.html",
       "title": "Kasey Dye",
       "author": [],
       "contents": "\n\n          \n          \n          Kasey Dye \n          \n          \n          Home\n          About\n          CV\n          Publications\n          \n          \n          Projects\n           \n          ▾\n          \n          \n          Publications\n          Project 2\n          \n          \n          \n          \n          \n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            Kasey Dye\n          \n          \n            \n              Hello, I am a third year doctoral student at Virginia Commonwealth University. My current research study is investigating supports and barriers to accessing healthcare for children with disabilities.\n            \n            \n              Hello, I am a third year doctoral student at Virginia Commonwealth University. My current research study is investigating supports and barriers to accessing healthcare for children with disabilities.\n            \n          \n\n          \n            \n              \n                  \n                    \n                       Twitter\n                    \n                  \n                \n                                \n                  \n                    \n                       GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                       Email\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                     Twitter\n                  \n                \n                                \n                  \n                     GitHub\n                  \n                \n                                \n                  \n                     Email\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2022-07-26T12:15:39-04:00"
+      "last_modified": "2022-07-26T13:01:22-04:00"
     },
     {
       "path": "project2.html",
       "title": "Project 2",
       "author": [],
       "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
-      "last_modified": "2022-07-26T12:15:41-04:00"
+      "last_modified": "2022-07-26T13:01:23-04:00"
     },
     {
       "path": "pubs.html",
       "title": "Publications",
       "author": [],
       "contents": "\nPeer-Reviewed\nAccepted for Publication\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
-      "last_modified": "2022-07-26T12:15:43-04:00"
+      "last_modified": "2022-07-26T13:01:24-04:00"
     }
   ],
   "collections": []
