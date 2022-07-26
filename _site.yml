@@ -3,6 +3,7 @@ title: "Kasey Dye "
 description: |
   Kasey Dye 
 output_dir: "_site"
+base_url: https://kaseydye.netlify.app/
 navbar:
   right:
     - text: "Home"
