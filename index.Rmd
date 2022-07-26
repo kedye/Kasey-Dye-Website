@@ -1,0 +1,28 @@
+---
+title: "Kasey Dye "
+description: |
+  Welcome to the website. I hope you enjoy it!
+site: distill::distill_website
+---
+
+Adding some text.
+
+**Adding some text bold**
+
+*Italics*
+
+- bulleted lists
+
+1. numbered list
+1. item 2
+1. item 3
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+```
+
