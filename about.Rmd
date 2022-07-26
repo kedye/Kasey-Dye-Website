@@ -1,10 +1,19 @@
 ---
-title: "About this site"
-description: |
-  Some additional details about the website
+title: "About Me"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+# Header 1
+
+some text
+
+# Header 2
+
+some more text
+
+## Subheading 1
+
+![]("img/kasey.jpg")
