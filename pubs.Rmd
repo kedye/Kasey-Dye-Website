@@ -4,7 +4,7 @@ title: "Publications"
 
 # Peer-Reviewed
 
--   **Dye, K.**, Wallace, M., Thompkins, K., Dawes, S. (2022, June 6). An urban partnership: Embracing collaboration and feedback. *Journal of Community Engagement and Scholarship*, 14(2).
+-   **Dye, K.**, Wallace, M., Thompkins, K., Dawes, S. (2022, June 6). An urban partnership: Embracing collaboration and feedback. *Journal of Community Engagement and Scholarship*, 14(2). https://jces.ua.edu/articles/10.54656/jces.v14i2.38
 
 # Accepted for Publication
 
