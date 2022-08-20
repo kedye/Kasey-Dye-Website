@@ -2,4 +2,4 @@
 
 This is a Github repository for my personal website.
 
-You can see the website [here](https://kaseydye.netlify.app/)
+You can see the website [here](https://kaseyedye.netlify.app/)
