@@ -6,6 +6,8 @@ title: "Program Evaluations"
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+-   **Dye, K.** (2022, August 30). *Actively Learn: 2021 - 2022 evaluation report*. Evaluation of Actively Learn curriculum sponsored by a Virginia public school district.
+
 -   **Dye, K.**, Wallace, M. K., Ogston-Nobile, P. (2022, June 30). *Petersburg partnership: 2021 - 2022 evaluation report*. Evaluation of professional development sponsored by Petersburg Public Schools and Virginia Commonwealth University School of Education, Metropolitan Educational Research Consortium at Virginia Commonwealth University.
 
 -   **Dye, K.**, Wallace, M. K., Dawes, S., & Naff, D. (2021, June 30). *Petersburg partnership and urban educator collaborative: 2020 - 2021 evaluation report*. Evaluation of professional development sponsored by Petersburg Public Schools and Virginia Commonwealth University School of Education, Metropolitan Educational Research Consortium at Virginia Commonwealth University.
