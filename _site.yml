@@ -11,9 +11,9 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "CV"
-      href: cv.pdf
-    - text: "Work"
+    - text: "Resume"
+      href: Resume.pdf
+    - text: "My Work"
       menu:
         - text: "My Evaluation Report"
           href: eval.html
