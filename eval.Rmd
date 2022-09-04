@@ -129,7 +129,7 @@ dftable <- df %>%
 
 # Executive Summary
 
-This report examined teacher usage practices with Actively Learn during its first year of implementation. Teacher usage of Actively Learn varied greatly among schools and content areas. Additionally, the percentage of teachers using each feature differed by school and content area. Differentiation was the least used feature, while accessibility was the most used feature. 
+This report examined teacher usage practices with Actively Learn during its first year of implementation. Teacher usage of Actively Learn varied greatly among schools and content areas. Additionally, the percentage of teachers using each feature differed by school and content area. Differentiation was the least used feature, while accessibility was the most used feature.
 
 # Background
 
@@ -139,7 +139,7 @@ The 2021-2022 school year was the first year that Actively Learn was implemented
 
 The original data included 740 participants, but some of these participants were actually school administrators, duplicates, or curriculum specialists. Only participants that had 10 or more students, or were special education teachers with at least one student, were included in this data analysis. This brought the total number of participants down to 440 teachers.
 
-I separated teacher content areas into 5 categories: Social Studies, ELA, Special Education, Science, and Other. Some teachers were already categorized as Other by the Actively Learn system, and I added Math teachers and World Language teachers to the Other category as well. 
+I separated teacher content areas into 5 categories: Social Studies, ELA, Special Education, Science, and Other. Some teachers were already categorized as Other by the Actively Learn system, and I added Math teachers and World Language teachers to the Other category as well.
 
 # Analysis
 
@@ -157,17 +157,13 @@ Data was then analyzed by district-level, content, and school. I examined how ma
 
 -   Providing feedback (Number of unique student responses where the teacher added a comment)
 
-
 # Teacher Usage of Actively Learn
-
 
 ## Division-Level
 
 ### Teachers Using Actively Learn
 
-
-This table shows the mean and median number of teacher logins, number of assignments, and active students across the district. The median number (the middle number when put in numerical order) was included to account for outliers. 
-
+This table shows the mean and median number of teacher logins, number of assignments, and active students across the district. The median number (the middle number when put in numerical order) was included to account for outliers.
 
 ```{r}
 dftable %>%
@@ -178,10 +174,7 @@ tab_header(title = ("Across the District")) %>%
   cols_align(align = "center")
 ```
 
-
-For all teachers in the district, the mean number of teacher logins to Actively Learn for the 2021-2022 school year was 83. The median was much lower at 47, showing that there are most likely outliers. The mean number of total assignments per teacher using Actively Learn was 27 (median was 16), and the mean number of active students per teacher was 71 (median was 66). However, these numbers vary greatly when looking at individual teachers. I will discuss these differences further into this report.
-&nbsp;
-
+For all teachers in the district, the mean number of teacher logins to Actively Learn for the 2021-2022 school year was 83. The median was much lower at 47, showing that there are most likely outliers. The mean number of total assignments per teacher using Actively Learn was 27 (median was 16), and the mean number of active students per teacher was 71 (median was 66). However, these numbers vary greatly when looking at individual teachers. I will discuss these differences further into this report.  
 
 The graph below shows the number of teachers using Actively Learn and what subject they teach per school.
 
@@ -196,11 +189,9 @@ df %>%
 
 As you can see in the graph, the majority of teachers using Actively Learn taught ELA. Some schools only had one or two different content areas using Actively Learn, such as Board High School, Bell Middle School, and Online School. Other Schools, such as Ocean Middle School, had teachers from all five content areas using Actively Learn. The number of teachers using Actively Learn at each school varied greatly, from 2 teachers at Mary High School and Hill High School to 38 teachers at Ocean Middle School.
 
-
 ### Percentage of Teachers Using Each Feature in the District
 
-
-The table below shows the number of teachers using or encouraging each feature within Actively Learn. Features with asterisks (**), differentiation and feedback, are the features that are initiated by the teachers, such as the teacher using the differentiation feature on an assignment by marking one or more students as 'Extra Help.' Features without asterisks are the features that are taught and encouraged by the teachers and initiated by the students, such as teaching the students how to use the annotation feature and then having them annotate assignments. 
+The table below shows the number of teachers using or encouraging each feature within Actively Learn. Features with asterisks (\*\*), differentiation and feedback, are the features that are initiated by the teachers, such as the teacher using the differentiation feature on an assignment by marking one or more students as 'Extra Help.' Features without asterisks are the features that are taught and encouraged by the teachers and initiated by the students, such as teaching the students how to use the annotation feature and then having them annotate assignments.
 
 ```{r}
 dfallteach %>%
@@ -212,14 +203,11 @@ dfallteach %>%
   fmt_percent(pnt, decimals = 0)
 ```
 
-The least used/encouraged feature was differentiation, with only 7.3% of the teachers in the district using it. A little more than a third of all teachers used/encouraged the discussion (at least 1 student replying in the assignments) and vocabulary features (using word lookups in assignments). More than half, 59%, of all teachers used/encouraged the accessibility feature (using text to speech and translation). 
-
+The least used/encouraged feature was differentiation, with only 7.3% of the teachers in the district using it. A little more than a third of all teachers used/encouraged the discussion (at least 1 student replying in the assignments) and vocabulary features (using word lookups in assignments). More than half, 59%, of all teachers used/encouraged the accessibility feature (using text to speech and translation).
 
 ### Correlation Between Features
 
-
-The correlation matrix plot below demonstrates the correlation, how related two variables are, between each of the features. The closer the number is to 1, the stronger the correlation is, and numbers close to zero indicate no correlation. 
-
+The correlation matrix plot below demonstrates the correlation, how related two variables are, between each of the features. The closer the number is to 1, the stronger the correlation is, and numbers close to zero indicate no correlation.
 
 ```{r}
 cor_mat %>%
@@ -227,18 +215,15 @@ cor_mat %>%
   corrplot(method = 'circle', type = 'lower', insig='blank', addCoef.col ='black', tl.cex = 0.8, number.cex = 0.8, order = 'AOE', diag=FALSE)
 ```
 
-There appears to be a strong correlation between annotation and vocabulary, such that teachers using/encouraging the annotation feature are more likely to to have students using the vocabulary (students performing word lookups in assignments) feature. There also appears to be a slight correlation between differentiation and accessibility, such that teachers using the differentiation feature are more likely to have students using the accessibility (text to speech and translation) feature. 
+There appears to be a strong correlation between annotation and vocabulary, such that teachers using/encouraging the annotation feature are more likely to to have students using the vocabulary (students performing word lookups in assignments) feature. There also appears to be a slight correlation between differentiation and accessibility, such that teachers using the differentiation feature are more likely to have students using the accessibility (text to speech and translation) feature.
 
-No correlation, like between annotation and differentiation, means that teachers that are using/encouraging one feature may not be using/encouraging the other feature. 
-
+No correlation, like between annotation and differentiation, means that teachers that are using/encouraging one feature may not be using/encouraging the other feature.
 
 ## School
 
 ### Number of Teachers Using Actively Learn Per School
 
-
 The graph below shows the number of teachers using Actively Learn at each school.
-
 
 ```{r}
 ggplot(df, aes(y = school_name.fac)) +
@@ -256,9 +241,7 @@ As previously demonstrated, the number of teachers using Actively Learn at each 
 
 ### Number of Teacher Logins Per School
 
-
 The graph below shows the number of teacher logins on Actively Learn at each school. Each dot represents an individual teacher. The mean number of teacher logins per school is shown with the black line on the graph.
-
 
 ```{r}
 ggplot(df, aes(x = number_of_teacher_logins, y = fct_reorder(school_name.fac, number_of_teacher_logins, .fun = mean, na.rm = TRUE), color = school_name.fac)) +
@@ -267,13 +250,12 @@ ggplot(df, aes(x = number_of_teacher_logins, y = fct_reorder(school_name.fac, nu
   theme(legend.position = "none") +
   labs(x = "Number of Teacher Logins for Actively Learn", y = "School", title = "Actively Learn Teacher Logins By School")
 ```
-Most of the teachers had approximately 80 logins on Actively Learn for the school year. Multiple teachers, however, had more than 400 logins on Actively Learn during the school year.   
+
+Most of the teachers had approximately 80 logins on Actively Learn for the school year. Multiple teachers, however, had more than 400 logins on Actively Learn during the school year.
 
 ### Number of Assignments Per School
 
-
 The graph below shows the number of assignments each teacher gave at each school. Each dot represents an individual teacher's number of assignments. The mean number of teacher assignments per school is shown with the black line on the graph.
-
 
 ```{r}
 ggplot(df, aes(x = total_assign, y = fct_reorder(school_name.fac, total_assign, .fun = mean, na.rm = TRUE), color = school_name.fac)) +
@@ -283,13 +265,11 @@ ggplot(df, aes(x = total_assign, y = fct_reorder(school_name.fac, total_assign, 
   labs(x = "Number of Assignments", y = "School", title = "Number of Teacher Assignments Per School")
 ```
 
-Most of the teachers gave approximately 25 assignments on Actively Learn for the school year. Multiple teachers frequently used Actively Learn and gave more than 100 assignments during the school year. However, more assignments may not equate to better instruction or best practices. 
+Most of the teachers gave approximately 25 assignments on Actively Learn for the school year. Multiple teachers frequently used Actively Learn and gave more than 100 assignments during the school year. However, more assignments may not equate to better instruction or best practices.
 
 ### Percent of Teachers Using the Feature At Each School
 
-
-The graph below shows the feature usages per school. Features with asterisks (**) are the features that are initiated by the teachers. Features without asterisks are the features that are taught and encouraged by the teachers and initiated by the students. 
-
+The graph below shows the feature usages per school. Features with asterisks (\*\*) are the features that are initiated by the teachers. Features without asterisks are the features that are taught and encouraged by the teachers and initiated by the students.
 
 ```{r, fig.width=14, fig.height=10}
 df_summed_long %>%
@@ -304,8 +284,7 @@ df_summed_long %>%
 
 As the graph above indicates, the feature usages at each school also varies greatly. Differentiation is the least used feature across all schools. At many schools, the majority of teachers are using/encouraging at least one feature consistently. The features that are being consistently used/encouraged at each school differs. For example, at Sunny Middle School the two features used/encouraged the most were accessibility and discussion. Whereas at Bell Middle School, the two features used/encouraged the most were accessibility and annotation. Some schools, like Hill High School and Mary High School, used/encouraged very few features.
 
-&nbsp;
-&nbsp;
+   
 
 The graphs below show each individual feature usage per school.
 
@@ -323,15 +302,13 @@ make_tools_plot(vocabulary_binary, x_lab = "Percentage of Teachers Using Vocabul
 make_tools_plot(feedback_binary, x_lab = "Percentage of Teachers Using Feedback", title = "**Feedback Practices by School")
 ```
 
-The graphs above show that teachers at many schools are not using differentiation, and teachers at multiple schools are not using the feedback, discussion, and annotation features. Teachers at some schools, however, are consistently using/encouraging the Actively Learn features. For example, more than half of the teachers at Lillian Middle School, Highway Middle School, Online School, and Online Middle School used/encouraged the vocabulary feature. Additionally, more than 60% of the teachers at Bell Middle School, Online School, and Breezy High School used/encouraged the annotation feature. 
-
+The graphs above show that teachers at many schools are not using differentiation, and teachers at multiple schools are not using the feedback, discussion, and annotation features. Teachers at some schools, however, are consistently using/encouraging the Actively Learn features. For example, more than half of the teachers at Lillian Middle School, Highway Middle School, Online School, and Online Middle School used/encouraged the vocabulary feature. Additionally, more than 60% of the teachers at Bell Middle School, Online School, and Breezy High School used/encouraged the annotation feature.
 
 ## Content
 
 ### Number of Teachers Using Actively Learn Per Content
 
-
-The graph below demonstrates the content areas for teachers using Actively Learn. 
+The graph below demonstrates the content areas for teachers using Actively Learn.
 
 ```{r}
 ggplot(df, aes(y = subject.fac)) +
@@ -345,11 +322,9 @@ ggplot(df, aes(y = subject.fac)) +
     theme_minimal()
 ```
 
-The vast majority of the teachers using Actively Learn teach ELA.  
-
+The vast majority of the teachers using Actively Learn teach ELA.
 
 ### Number of Teacher Logins Per Content
-
 
 The graph below shows the number of teacher logins on Actively Learn for each content area. Each dot represents an individual teacher. The mean number of teacher logins per school is shown with the black line on the graph.
 
@@ -360,13 +335,11 @@ ggplot(df, aes(x = number_of_teacher_logins, y = fct_reorder(subject.fac, number
   labs(x = "Number of Teacher Logins for Actively Learn", y = "Content", title = "Actively Learn Teacher Logins By Content")
 ```
 
-The mean number of teacher logins was higher for ELA teachers than other content areas. Numerous ELA teachers had more than 200 logins on Actively Learn, along with a couple Social Studies and Science teachers.    
-
+The mean number of teacher logins was higher for ELA teachers than other content areas. Numerous ELA teachers had more than 200 logins on Actively Learn, along with a couple Social Studies and Science teachers.
 
 ### Number of Assignments Per Content
 
-
-The graph below shows the number of assignments each teacher gave by their content area. 
+The graph below shows the number of assignments each teacher gave by their content area.
 
 ```{r}
 ggplot(df, aes(x = total_assign, y = fct_reorder(subject.fac, total_assign, .fun = mean, na.rm = TRUE), color = subject.fac)) +
@@ -375,12 +348,11 @@ ggplot(df, aes(x = total_assign, y = fct_reorder(subject.fac, total_assign, .fun
   labs(x = "Number of Assignments", y = "Content", title = "Number of Assignments Per Content")
 ```
 
-The mean number of assignments was highest for ELA and Social Studies teachers. One Social Studies teacher gave more than 350 assignments on Actively Learn during the school year.  
+The mean number of assignments was highest for ELA and Social Studies teachers. One Social Studies teacher gave more than 350 assignments on Actively Learn during the school year.
 
 ### Percent of Teachers Using the Feature By Content
 
-
-The graph below shows the feature usages per content area. Features with asterisks (**) are the features that are initiated by the teachers. Features without asterisks are the features that are taught and encouraged by the teachers and initiated by the students. 
+The graph below shows the feature usages per content area. Features with asterisks (\*\*) are the features that are initiated by the teachers. Features without asterisks are the features that are taught and encouraged by the teachers and initiated by the students.
 
 ```{r, fig.height=5, fig.width= 7}
 df_contentsummed_long %>%
@@ -393,8 +365,7 @@ df_contentsummed_long %>%
   labs(x = "Percent of Teachers Per Content", y = "Features", title = "Percent of Teachers Using Features By Content Area")
 ```
 
-Similar to the feature usages per school, the most commonly used feature was accessibility and the least used feature was differentiation across most of the content areas. For special education teachers, however, the most commonly used/encouraged feature was discussion, but overall special education teachers used/encouraged the least amount of features. ELA teachers most consistently used/encouraged features compared to other content area teachers. 
-&nbsp;
+Similar to the feature usages per school, the most commonly used feature was accessibility and the least used feature was differentiation across most of the content areas. For special education teachers, however, the most commonly used/encouraged feature was discussion, but overall special education teachers used/encouraged the least amount of features. ELA teachers most consistently used/encouraged features compared to other content area teachers.  
 
 The graphs below show each individual feature usage.
 
@@ -413,7 +384,6 @@ make_contenttools_plot(feedback_binary, x_lab = "Feedback", title = "**Feedback 
 ```
 
 The graphs above show ELA teachers are consistently using/encouraging the discussion, accessibility, and vocabulary features on Actively Learn. The graphs also demonstrate how little the differentiation feature is being used.
-
 
 ## Top Teachers Using the Features
 
@@ -446,7 +416,6 @@ df_topcontent <- df %>%
   slice_max(order_by = val, with_ties = FALSE, n = 5)
 ```
 
-
 # Conclusion
 
-The 2021-2022 school year was the first year that the school district implemented Actively Learn. Teacher usage of Actively Learn varied greatly among schools and content areas. For the district's second year with Actively Learn, the District Curriculum Specialists could create professional development sessions on how to use and teach students to use different features. The differentiation feature was used very little this past year, so additional training on this feature could increase usage. I recommend additional student data be collected during the second and third years of implementing Actively Learn so that student growth and achievement can be analyzed.  
+The 2021-2022 school year was the first year that the school district implemented Actively Learn. Teacher usage of Actively Learn varied greatly among schools and content areas. For the district's second year with Actively Learn, the District Curriculum Specialists could create professional development sessions on how to use and teach students to use different features. The differentiation feature was used very little this past year, so additional training on this feature could increase usage. I recommend additional student data be collected during the second and third years of implementing Actively Learn so that student growth and achievement can be analyzed.
