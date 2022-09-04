@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
-    <loc>https://kaseydye.netlify.app/about.html</loc>
-    <lastmod>2022-07-26T13:13:57-04:00</lastmod>
+    <loc>https://kaseyedye.netlify.app/about.html</loc>
+    <lastmod>2022-08-20T14:51:53-04:00</lastmod>
   </url>
   <url>
-    <loc>https://kaseydye.netlify.app/</loc>
-    <lastmod>2022-07-26T13:10:38-04:00</lastmod>
+    <loc>https://kaseyedye.netlify.app/eval.html</loc>
+    <lastmod>2022-09-03T23:50:34-04:00</lastmod>
   </url>
   <url>
-    <loc>https://kaseydye.netlify.app/presentations.html</loc>
+    <loc>https://kaseyedye.netlify.app/</loc>
+    <lastmod>2022-08-20T14:58:43-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://kaseyedye.netlify.app/presentations.html</loc>
     <lastmod>2022-07-26T13:34:09-04:00</lastmod>
   </url>
   <url>
-    <loc>https://kaseydye.netlify.app/programevaluations.html</loc>
+    <loc>https://kaseyedye.netlify.app/programevaluations.html</loc>
     <lastmod>2022-07-26T13:27:32-04:00</lastmod>
   </url>
   <url>
-    <loc>https://kaseydye.netlify.app/pubs.html</loc>
-    <lastmod>2022-07-26T13:37:03-04:00</lastmod>
+    <loc>https://kaseyedye.netlify.app/pubs.html</loc>
+    <lastmod>2022-08-20T14:12:04-04:00</lastmod>
   </url>
 </urlset>
