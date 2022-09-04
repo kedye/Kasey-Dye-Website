@@ -8,9 +8,9 @@ links:
   - label: '<i class="fab fa-github"></i> GitHub'
     url: "https://github.com/kedye"
   - label: '<i class="fas fa-envelope"></i> Email'
-    url: "dyeke@vcu.edu"
+    url: "mailto:dyeke@vcu.edu"
 output:
   postcards::jolla
 ---
  
-Hello, I am a third year doctoral student at Virginia Commonwealth University. I plan to complete my PhD in the Spring/Summer of 2023 and begin my career as a data analyst. 
+Hello, I am a third year doctoral student at Virginia Commonwealth University. I plan to complete my PhD in the Spring/Summer of 2023 and begin my career as a data analyst. I enjoy program evaluations and data visualization.  
