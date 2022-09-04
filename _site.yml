@@ -15,7 +15,7 @@ navbar:
       href: cv.pdf
     - text: "Work"
       menu:
-      - text: "My Evaluation Report"
+        - text: "My Evaluation Report"
           href: eval.html
         - text: "Publications"
           href: pubs.html
